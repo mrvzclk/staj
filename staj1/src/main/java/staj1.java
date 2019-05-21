@@ -18,7 +18,11 @@ public class staj1 {
     }}
     public static void main(String[] args) {
       Scanner input=new Scanner(System.in);
-   tree(3);
+           int m = input.nextInt();
+        if (m<1 || m>15) {
+            System.out.print("1 ile 15 arası bir sayı giriniz.");
+        } else tree(m);
+    
     
     }
     
